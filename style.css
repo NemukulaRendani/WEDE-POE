@@ -1,0 +1,20 @@
+.navbar ul{
+    list-style-type: none;
+    background-color: aqua;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: rgb(27, 26, 26);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: antiquewhite;
+}
+body{
+    background-image: url(Images/logo.png);
+}

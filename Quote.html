@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bright Mind Tutor-Quote</title>
+        <style type="text/css">
+        .navbar{
+            background: gray; font-family: Arial;padding-right: 15px;padding-left: 15px;
+        }
+        li{
+            display: flex; align-items: center; justify-content: space-between;
+        }
+        li{
+            list-style: none; display: inline-block;
+        }
+        li a{
+            color: white; font-size: 18px; font-weight: bold; margin-left: 25px ; max-width: 25px;
+        }
+    </style>
+</head>
+<body background="Images/logo.png">
+    <!-- navigation bar -->
+     <nav class="navbar">
+        <ul class="nav-list">
+            <img src="Images/logo.png" style="width: 60px; height: 60px;"></a>
+            <a href="Home.html">Home</a>
+            <a href="lessons.html">Lessons</a>
+            <a href="about us.html">About Us</a>
+            <a href="contact us.html">Contact Us</a>
+            <a href="Quote.html">Get Quote</a>
+        </ul>
+    </nav>
+    <h1 style="text-align:center;">Get Quote</h1>
+    <p>Complete the form below and become a bright mind.</p>
+        <form action="submit_quote.php" method="post">
+            <fieldset>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="name">Surname:</label><br>
+            <input type="text" id="Surname" name="Surname" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="phone">Enter a phone number:</label><br><br>
+            <input type="tel" id="phone" name="phone" placeholder="+27 " pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br><br>
+            <label for="address">Address:</label><br>
+            <input type="text" id="address" name="address" required><br><br>
+            <label for="service"><Service>
+            <Package></Package> Choose your subject:</label><br>
+            <select id="service" name="service">
+                <option value="Pure Maths">Pure Maths</option>
+                <option value="Maths literacy">Maths literacy</option>
+                <option value="Physics">Physics</option>
+                <option value="IT">IT</option>
+                <option value="C.A.T">C.A.T</option>
+            </select><br><br>
+            <input type="submit" value="Get Quote">
+            </fieldset>
+        </form>
+    <footer>
+        <b><i>Please follow our social media platforms</i></b>
+     <ul class="social -media">
+        <a href="http://www.facebook.com" target="_blank"><img src="Images/facebook logo.jpg" style="width: 32px; height: 32px;"></a>
+        <a href="http://www.instagram.com" target="_blank"><img src="Images/instargram logo.png" style="width: 32px; height: 32px;"></a>
+        <a href="http://www.x.com" target="_blank"><img src="Images/x.png" style="width: 32px; height: 32px;"></a>
+        <a href="http://www.LinkedIn.com" target="_blank"><img src="Images/linkedin.png" style="width: 32px; height: 32px;"></a>
+     </ul>
+    </footer>
+</body>
+</html>
